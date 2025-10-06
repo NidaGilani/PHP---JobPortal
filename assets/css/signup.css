@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+body{
+    background-color: #F2F2F2;
+}
+.signup-page{
+margin: auto;
+}
+.logo-section{
+    background-color: #3750B5;
+    width: 520px;
+    padding: 55px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px ;
+}
+.logo-head{
+    width: 330px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.logo-head .logo{
+    padding: 15px;
+
+}
+.logo-section p{
+    padding: 10px;
+    color: white;
+}
+.social-links img{
+    margin-top: 20px;
+}
+.form-section {
+    background-color: white;
+    width: 520px;
+    height: 650px;
+    padding: 80px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow-x: hidden;
+}
+/* 
+.button-box{
+    width: 220px;
+    margin: 5px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+} */
+
+.form-section input {
+    margin-top: 5px;
+    height: 48px;
+}
+.check-box{
+    display: flex;
+    margin: 0px;
+}
+.check-box , label, input, p{
+    margin: 5px;
+}
+#flexCheckChecked{
+    width: 21px;
+    height: 21px;
+
+}
+.signup-btn{
+    height: 55px;
+    background-color: #3750B5;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-top: 20px;
+}
+.account-btn{
+    height: 55px;
+    background-color: #48B26B;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-top: 20px;
+    border: none;
+}
+i{
+    color: blue;
+    width: 200px;
+    height: 200px;
+}

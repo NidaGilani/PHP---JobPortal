@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+/* navbar */
+.hero {
+  background-color: #3750B5;
+}
+
+.navbar-toggler-icon{
+  color: white !important;
+}
+
+.nav-left{
+  display: inline-flex;
+}
+
+.nav-left  li {
+  font-size: 15px;
+  margin: 0px 15px;
+}
+
+.nav-left  li a {
+  color: white;
+  padding: 5px 15px;
+  font-weight: 500;
+} 
+/* navbar */
+
+/* header */
+.hero-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* header */
+
+/* search */
+.search-section {
+  margin-top: 50px;
+}
+
+.search-section .search-field {
+  /* width: 330px;
+  height: 50px; */
+  border: 1px solid #D1D1D1;
+  border-radius: 6px;
+  margin: 6px;
+  padding: 10px;
+}
+
+.find-btn {
+  background-color: #3750B5;
+  color: white;
+}
+
+.search-section ul li {
+  position: relative;
+  display: inline;
+  border: 1px solid #D1D1D1;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.search-section ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.search-section .search-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-section .search-tags .search-links {
+  margin-top: 25px;
+}
+/* search */
+
+/* manage */
+.manage {
+  padding: 15px;
+  height: 400px;
+  background-color: #3750B5;
+}
+
+.manage img {
+  /* margin-top: 150px; */
+  width: 80px;
+  height: 80px;
+}
+
+.manage h6 {
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.manage p {
+  font-size: 16px;
+  opacity: 0.7;
+  color: white;
+}
+
+.manage a {
+  font-size: 16px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* manage */
+
+/* categories */
+.category-items{
+  background-color: rgb(238, 238, 238);
+  /* padding: 10px; */
+  margin: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+.category-sections{
+  margin: 10px;
+}
+.category-items img{
+  margin: 5px;
+}
+.category-items p{
+  margin: 10px;
+}
+.category-items p a{
+  text-decoration: none;
+  color: black;
+}
+/* categories */
+
+/* browse job */
+.looking-section {
+  background-color: #3750B5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.browse-btn {
+  width: 220px;
+  height: 49px;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* browse job */
+
+/* testimonials */
+.testimonial-section {
+  width: 750px;
+  height: 350px;
+  background-color: #3750B5;
+  border-top-right-radius: 168px;
+  border-bottom-left-radius: 168px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonial-paragraph p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.testimonial-image img {
+  position: relative;
+  left: 150px;
+}
+/* testimonials */
+
+/* footer */
+.footer-section {
+  background-color: #3750B5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+.footer-para p {
+  color: #F3F3F3;
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+.social-links-footer img {
+  opacity: 0.7;
+}
+
+.company-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.company-tags h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.company-tags .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.company-tags .links a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0px;
+  opacity: 0.7;
+}
+
+.category-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.category-tags h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.category-tags .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.category-tags .links a {
+  color: white;
+  margin: 5px 0px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.subscribe-input {
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.subscribe-tag {
+  background-color: transparent;
+  border: none;
+}
+
+.subscribe-btn {
+  color: #3049ad;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.subscribe-para {
+  color: white;
+  opacity: 0.7;
+  font-size: medium;
+}
+/* footer */
+/*# sourceMappingURL=main.css.map */
+
+/* candidates */
+.featured_candidates_area .single_candidates {
+  background: #fff;
+  border-radius: 5px;
+  padding: 35px 45px;
+}
+/* candidates */

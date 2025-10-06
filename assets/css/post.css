@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.hero {
+    background-image: url("background.png");
+    width: 100%;
+    height: 400px;
+    background-color: #3750B5;
+}
+.header-hero {
+    display: flex;
+}
+
+.logo img {
+    margin: 25px 141px;
+}
+
+.nav ul {
+    margin-left: 100px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 45px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav ul li a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.right {
+    margin: 35px;
+    margin-left: 100px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.right a {
+    margin: 0 0 050px 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 15px;
+    width: 117px;
+    height: 41px;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.hero-text {
+    width: 550px;
+    height: 256px;
+    margin: 120px 333px;
+}
+
+.hero-text h2 {
+    color: white;
+    font-size: 29px;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 49px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.upload-btn {
+    width: 242px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.hero-img {
+    margin:  0px;
+}
+.post-section{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 400px ;
+}
+.post-button{
+    float: right;
+    display: inline;
+    flex-direction: row;
+    margin-left: 700px;
+}
+.post-button .btn{
+    margin-left: 15px;
+
+}
+.preview-btn{
+    background-color: rgb(221, 221, 221);
+    height: 47px;
+    width: 150px;
+}
+.save-btn{
+    background-color: #3750B5;
+    height: 47px;
+    width: 150px;
+}
+.job-desc-section{
+    width: 1195px;
+    border: 1px solid rgb(199, 199, 199);
+    margin: 100px 400px ;
+    padding: 30px;
+    border-radius: 5px;
+}
+.job-detail h3 , h6 {
+    margin: 10px;
+    margin-top: 20PX;
+}
+.job-detail h6{
+    margin-top: 60px;
+}
+
+.upload-file-btn{
+    width: 150px;
+    height: 47px;
+    background-color: #3750B5;
+    border: none;
+    margin: 10px;
+}
+form{
+    margin: 40px;
+}
+.job-form{
+    margin: 55px !important;
+    margin-top: 150px;
+}
+.job-form, label , input, textarea{
+    margin: 10px !important;
+}
+.logo-btn{
+    width: 120px;
+    height: 50px;
+    background-color: #3750B5;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.post-button-end{
+    margin-left: 1250px;
+    margin-bottom: 50px;
+}
+.post-button-end .btn{
+    margin-left: 15px;
+
+}
+.preview-btn{
+    background-color: rgb(221, 221, 221);
+    height: 47px;
+    width: 150px;
+   
+}
+.save-btn{
+    background-color: #3750B5;
+    height: 47px;
+    width: 150px;
+}
+
+.footer-section {
+    height: 485px;
+    background-color: #3750B5;
+    display: flex;
+}
+.footer img{
+    margin-top: 100px;
+    margin-left: 250px;
+
+}
+.footer-para{
+    width: 230px;
+    height: 113px;
+    margin-left: 250px;
+}
+.footer-para p{
+    color: #F3F3F3;
+    font-weight: 300;
+    margin-top: 40px;
+    opacity: 0.7;
+}
+.social-links-footer{
+    margin-left: 240px;
+}
+.social-links-footer img{
+    opacity: 0.7;
+    margin: 3px;
+}
+.company-tags{
+    margin-left: 250px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+.company-tags h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.company-tags .links {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-tags .links a {
+    color: white;
+    margin-top: 15px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.category-tags{
+    margin-left: 200px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+.category-tags h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.category-tags .links {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-tags .links a {
+    color: white;
+    margin-top: 15px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.subscribe-input {
+    width: 310px;
+    height: 47px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: transparent;
+    margin-top: 50px;
+}
+.subscribe-input input{
+   margin: 0 !important;
+}
+.subscribe-tag{
+    background-color: transparent;
+    border: none;
+    height: 45px;
+}
+.subscribe-btn{
+    width: 96px;
+    height: 35px;
+    color: #3049ad;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.subscribe-input p {
+    color: white;
+    opacity: 0.7;
+    margin-top: 25px;
+    font-size: medium;
+}
